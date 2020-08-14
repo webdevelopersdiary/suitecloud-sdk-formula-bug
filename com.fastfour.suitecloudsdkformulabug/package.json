@@ -1,0 +1,25 @@
+{
+  "name": "suitecloud-sdk-formula-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "suitecloud project:validate && suitecloud project:validate --server",
+    "import": "suitecloud object:import --appid com.fastfour.suitecloudsdkformulabug --destinationfolder /Objects/ --scriptid ALL --type ALL",
+    "deploy": "suitecloud project:deploy --validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevelopersdiary/suitecloud-sdk-formula-bug.git"
+  },
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/webdevelopersdiary/suitecloud-sdk-formula-bug/issues"
+  },
+  "homepage": "https://github.com/webdevelopersdiary/suitecloud-sdk-formula-bug#readme",
+  "devDependencies": {
+    "@oracle/suitecloud-cli": "^1.0.4"
+  }
+}

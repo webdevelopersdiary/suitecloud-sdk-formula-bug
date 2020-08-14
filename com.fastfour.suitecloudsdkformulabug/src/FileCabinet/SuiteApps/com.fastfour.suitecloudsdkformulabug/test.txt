@@ -1,0 +1,2 @@
+This file doesn't do anything.
+It's just here to be able to commit the folder structure to git.
